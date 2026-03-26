@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Scissors | Barbería & Peluquería</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <h1>GOLDEN SCISSORS</h1>
+        <p>Estilo y precisión en cada corte</p>
+    </header>
+
+    <main>
+        <section class="carousel-container">
+            <div class="carousel">
+                <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=800&q=80" alt="Local">
+                <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80" alt="Corte Hombre">
+                <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80" alt="Barbería">
+            </div>
+        </section>
+
+        <section class="info-links">
+            <a href="https://www.google.com/maps" target="_blank" class="btn-info">📍 Ubicación en Maps</a>
+            <div class="socials">
+                <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">WhatsApp</a>
+            </div>
+        </section>
+
+        <section class="chat-wrapper">
+            <div class="chat-header">
+                <span>🤖 Asistente Virtual Golden</span>
+            </div>
+            <div id="chat-box" class="chat-box">
+                <div class="bot-msg">¡Hola! Soy Golden Bot. ¿Quieres agendar una cita? Escribe "agendar" para ver nuestros peluqueros y precios.</div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-input" placeholder="Escribe un mensaje...">
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
